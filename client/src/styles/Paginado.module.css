@@ -1,0 +1,30 @@
+.paginacion {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+.paginacion button {
+  background-color: rgb(0, 0, 0);
+  color: rgb(247, 242, 242);
+  cursor: pointer;
+  float: left;
+  padding: 8px 16px;
+  border: 1px solid #fffeff;
+  margin: 0 4px;
+  box-shadow:  
+  0 0 5px rgb(96, 91, 91),
+  0 0 10px rgb(112, 112, 119),
+  0 0 15px rgb(77, 74, 74),
+  0 0 20px rgb(78, 56, 187),
+  0 0 25px rgb(91, 87, 87),
+  0 0 30px rgb(88, 62, 255);
+  
+}
+
+
+.paginacion button:hover{
+    background-color: rgb(36, 18, 113);
+  }
+

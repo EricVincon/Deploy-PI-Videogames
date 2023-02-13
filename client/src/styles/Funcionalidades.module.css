@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2a2929;
+    
+  }
+
+  .box {
+    display: inline;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+  }
+
+  .box select {
+    background-color: #0d0d0d;
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+    padding: 7px;
+    font-size: 16px;
+    appearance: button;
+    outline: none;
+    margin: 10px;
+    font-family: monospace;
+    border-radius: 10px;
+    box-shadow:  
+    0 0 5px rgb(255, 253, 253),
+    0 0 10px rgb(226, 221, 244),
+    0 0 15px rgb(246, 245, 248),
+    0 0 20px rgb(78, 56, 187),
+    0 0 25px rgb(190, 185, 255),
+    0 0 30px rgb(88, 62, 255);
+  }
+  
+  .box select:hover{
+    background-color:#070c46;
+  }
+
+
+  .box select option {
+    padding: 30px;
+    font-family: monospace;
+  }
+
+  .btn {
+  padding:6px 10px;
+  text-align:center;
+  margin:.6rem auto;
+  font-size:1rem;
+  color:#e7ddda;
+  text-decoration:none;
+  background-color:#171616;
+  border-radius:35px;
+  transition:.3s;
+  font-family:system-ui;
+  }
+
+  .btn:hover{
+    color:#e8e6e6;
+    background-color:#4314bb;
+    box-shadow:0 0 2px 2px rgba(0,0,0,0.4);
+  }

@@ -1,0 +1,9 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 25px 0 0 0;
+    background: rgb(13,13,47);
+background: linear-gradient(90deg, rgba(13,13,47,0.9523824910823705) 30%, rgba(26,25,33,1) 48%, rgba(5,13,23,1) 56%, rgba(14,29,45,0.988797056908701) 67%);
+   
+}
