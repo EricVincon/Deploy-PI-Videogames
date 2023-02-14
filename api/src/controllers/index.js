@@ -34,7 +34,7 @@ const infoApi = async() => {
 //A MI DB
 const infoDB = async () => {
     try {
-    return await Videogame.findAll({ //SELECT * FROM Videogame 
+    return await Videogame.findAll({ //SELECT * FROM Videogames
            include: [{
                model: Genres, 
                atributes: ['name'], 
