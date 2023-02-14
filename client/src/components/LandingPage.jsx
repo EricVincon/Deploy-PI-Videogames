@@ -17,6 +17,7 @@ const LandingPage = () => {
                         </button>
                     </Link>
                 </div>
+                {/* "target='_blank' rel='noreferrer'" se usa para abrir un enlace en una nueva ventana y evitar que el sitio web de destino recopile información del sitio web actual. */}
                 <div className={s.links}>
                     <div className={s.mini_box}>
                         <a href='https://www.linkedin.com/in/eric-vincon-1549521bb/' target="_blank" rel="noreferrer">

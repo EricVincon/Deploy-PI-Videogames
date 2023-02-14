@@ -16,7 +16,7 @@ export default function NavBar() {
     }
 
     return (
-        // <div className={s.box}>
+        
             <nav className={s.nav}>
                 <div className={s.busqueda}>
                     <SearchBar />
@@ -29,6 +29,6 @@ export default function NavBar() {
                     <span className={s.opcion}><NavLink to={'/create'} className={s.to}> Crear videojuego</NavLink></span>
                 </div>
             </nav>
-        //</div>
+       
     )
 }

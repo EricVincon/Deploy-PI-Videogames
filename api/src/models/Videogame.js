@@ -4,7 +4,7 @@ const { DataTypes } = require('sequelize');
 module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define('videogame', {
-    id: { //preguntar por este id, porque sequelize te genera uno automaticamente
+    id: { 
       type: DataTypes.UUID, //genera un numero random con letras y numeros
       defaultValue: DataTypes.UUIDV4, //me genera automaticamente un UUISV4
       unique: true,
