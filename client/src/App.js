@@ -7,8 +7,8 @@ import Create from './components/Create';
 import Page404 from './components/Page404';
 import axios from "axios";
 //necesito darle a axios una url base (la que he utilizado)
-//le decimos a nuesto frontend que no va a tener definidda todas las urls a la hora de hacer las epticiones sino que aca va a estra la base de la url
-axios.defaults.baseURL = "http://localhost:3001/"
+//le decimos a nuesto frontend que no va a tener definidda todas las urls a la hora de hacer las peticiones sino que aca va a estar la base de la url
+axios.defaults.baseURL = "https://deploy-pi-videogames-production.up.railway.app/";
 
 function App() {
   return (
