@@ -5,7 +5,7 @@ module.exports = (sequelize) => {
   // defino el modelo
   sequelize.define('videogame', {
     id: { 
-      type: DataTypes.UUID, //genera un numero random con letras y numeros
+      type: DataTypes.UUID, //genera un numero random con letras y numeros, cuando genero un videojuego estos uuid se van a generar automaticamente
       defaultValue: DataTypes.UUIDV4, //me genera automaticamente un UUISV4
       unique: true,
       primaryKey: true,

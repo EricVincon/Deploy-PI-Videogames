@@ -22,7 +22,7 @@ server.use((req, res, next) => {
   next();
 });
 
-server.use('/', routes);
+server.use('/', routes); //app.use hace pasar la request por diferentes middlewares
 
 // Error catching endware.
 server.use((err, req, res, next) => { // eslint-disable-line no-unused-vars

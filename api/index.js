@@ -18,9 +18,9 @@
 //                       `=---='
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 const server = require('./src/app.js');
-const { conn } = require('./src/db.js');
+const { conn } = require('./src/db.js'); 
 require('dotenv').config();
-//index.js  es nuestra carpeta raiz, aqui tenemos la creacion del server (con express) y la conexion con nuestra bdd
+//index.js  es nuestra carpeta raiz, aqui tenemos la creacion del server (con express) y la sincronizacion con nuestra bdd
 
 // Syncing all the models at once.
 conn.sync({ force: true}).then(() => {
